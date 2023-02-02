@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background-texture-natural-leaves-dark-green.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 8%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 1px;
+}
+.logo {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.txt_field{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+.txt_field li a{
+    text-decoration: none;
+    color: black;
+    transition: .01s;
+}
+.txt_field a:hover {
+    font-weight: bolder;
+    color: #156938;
+}
+.row {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+.about_me{
+    margin-left: 35%;
+    background: white;
+    margin-top: 40px;
+    width: 400px;
+    padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+    border-radius: 15px;
+}
+.profile_pic img{
+    width: 150px;
+    border-radius: 100px;
+}
+.info{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.Biography h1{
+    color:#156938;
+    font-weight: bolder;
+}
+.sections p em{
+    color: #010101;
+    font-size: large;
+    font-weight: 900;
+    font-style: normal;
+
+}

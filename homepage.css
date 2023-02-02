@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background-texture-natural-leaves-dark-green.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 8%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 1px;
+}
+.logo {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.txt_field{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+.txt_field li a{
+    text-decoration: none;
+    color: black;
+    transition: .01s;
+}
+.txt_field a:hover {
+    font-weight: bolder;
+    color: #156938;
+}
+.row {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+h1 {
+    font-size: 80px;
+}
+p {
+    padding-right: 20px;
+}
+.container_2{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+}
+.row_2{
+    display: flex;
+    height: 50%;
+    align-items:center
+}
+.col1{
+    flex-basis: 50%;
+}
+.col1{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.col1 h5 a{
+    text-decoration: none;
+    color: #115f9b;
+    font-size: 50px;
+    font-weight: 900;
+}
+.col1 h5 a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.col1 p{
+    color:#ffffff;
+}
+.col1:hover{
+    transform: translateY(-10px);
+}
+.col2{
+    flex-basis: 50%;
+}
+.col2{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/Photos.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.col2 h5 a{
+    text-decoration: none;
+    color: #115f9b;
+    font-size: 50px;
+    font-weight: 900;
+}
+.col2 h5 a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.col2 p{
+    color:#ffffff;
+}
+.col2:hover{
+    transform: translateY(-10px);
+}
